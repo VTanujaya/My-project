@@ -56,13 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Rotate.cs" />
     <Compile Include="Assets\Script\MoveArea.cs" />
     <Compile Include="Assets\Script\Control.cs" />
-    <Compile Include="Assets\Script\SpawnTrees.cs" />
-    <Compile Include="Assets\Script\moveObject.cs" />
-    <Compile Include="Assets\Rotate.cs" />
     <Compile Include="Assets\spawner.cs" />
+    <Compile Include="Assets\Script\moveObject.cs" />
     <Compile Include="Assets\ObjectPooling.cs" />
+    <Compile Include="Assets\Script\SpawnTrees.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -644,6 +644,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -655,9 +658,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -38,7 +38,7 @@ public class Control : MonoBehaviour
                     if (Physics.Raycast(ray, out hit))
                     {
                         UnityEngine.Debug.Log("screen");
-                        if (hit.collider.name == "Boat")
+                        if (hit.collider.name == "Player")
                         {
                             rb.transform.position = cam.ScreenToWorldPoint(new Vector3(touch.position.x, originalSpot.y, originalSpot.z));
                             UnityEngine.Debug.Log("move");

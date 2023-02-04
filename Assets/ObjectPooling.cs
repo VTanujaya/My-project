@@ -45,8 +45,8 @@ public class ObjectPooling : MonoBehaviour
         }
     void Spawn()
     {
-        float spawnInterval = Random.Range(0.5f, 3f);
-        Vector3 spawnLocation = new Vector3(Random.Range(-40, 0), 375, 1545);
+        float spawnInterval = Random.Range(0.5f, 2f);
+        Vector3 spawnLocation = new Vector3(Random.Range(-40, 0), Random.Range(367, 377), 1545);
         GameObject tree = ObjectPooling.SharedInstance.getPooledObject();
         if (tree != null)
         {
