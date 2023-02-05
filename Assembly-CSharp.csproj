@@ -56,13 +56,41 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Rotate.cs" />
+    <Compile Include="Assets\Script\PowerUp.cs" />
+    <Compile Include="Assets\Script\StartGame.cs" />
+    <Compile Include="Assets\ParticleProFX\PPFXWindow\PPFXWindow.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXChainReaction.cs" />
+    <Compile Include="Assets\Script\Rotate.cs" />
     <Compile Include="Assets\Script\MoveArea.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXShockwave.cs" />
+    <Compile Include="Assets\ParticleProFX\PPFXWindow\PPFXRendererLayer.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXMeteor.cs" />
     <Compile Include="Assets\Script\Control.cs" />
-    <Compile Include="Assets\spawner.cs" />
+    <Compile Include="Assets\Script\ObjectPoolingRight.cs" />
+    <Compile Include="Assets\Script\points.cs" />
+    <Compile Include="Assets\Script\spawner.cs" />
     <Compile Include="Assets\Script\moveObject.cs" />
-    <Compile Include="Assets\ObjectPooling.cs" />
+    <Compile Include="Assets\Script\Pause.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXChainReactionInspector.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXCountdownDestruct.cs" />
+    <Compile Include="Assets\ParticleProFX\DemoScene\Scripts\PPFXSpawnOnClick.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXRigidBodyExtensions.cs" />
+    <Compile Include="Assets\ParticleProFX\DemoScene\Scripts\PPFXDemoScene.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXRandomPosition.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXScale.cs" />
+    <Compile Include="Assets\Script\ObjectPooling.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXAutodestruct.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXClickMove.cs" />
     <Compile Include="Assets\Script\SpawnTrees.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXClickMoveSmooth.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXPhysicForce.cs" />
+    <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXLightFlare.cs" />
+    <Compile Include="Assets\Script\Help.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ParticleProFX\readme.txt" />
+    <None Include="Assets\ParticleProFX\Resources\Shaders\AlphaSelfIllum.shader" />
+    <None Include="Assets\ParticleProFX\changelog.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

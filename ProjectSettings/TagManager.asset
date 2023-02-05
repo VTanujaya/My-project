@@ -8,6 +8,10 @@ TagManager:
   - Bound
   - EXP
   - Tree
+  - Rock
+  - pyramid
+  - plane
+  - Chest
   layers:
   - Default
   - TransparentFX
